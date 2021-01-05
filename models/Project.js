@@ -24,7 +24,7 @@ Project.init(
       defaultValue: DataTypes.NOW,
     },
     postcontent: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(12345),
       allowNull: false,
     },
     user_id: {
