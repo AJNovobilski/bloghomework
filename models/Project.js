@@ -23,7 +23,7 @@ Project.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
+    postcontent: {
       type: DataTypes.STRING,
       allowNull: false,
     },
